@@ -1,0 +1,11 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "SideBar": {
+    "description": "Auto imported from components/SideBar.vue"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "categories",
+    "path": "/categories",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\categories.vue",
+    "chunkName": "pages/categories"
+  },
+  {
+    "name": "defaul-record",
+    "path": "/defaul-record",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\defaul-record.vue",
+    "chunkName": "pages/defaul-record"
+  },
+  {
+    "name": "history",
+    "path": "/history",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\history.vue",
+    "chunkName": "pages/history"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\login.vue",
+    "chunkName": "pages/login"
+  },
+  {
+    "name": "planning",
+    "path": "/planning",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\planning.vue",
+    "chunkName": "pages/planning"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\profile.vue",
+    "chunkName": "pages/profile"
+  },
+  {
+    "name": "record",
+    "path": "/record",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\record.vue",
+    "chunkName": "pages/record"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\register.vue",
+    "chunkName": "pages/register"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
