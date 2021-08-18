@@ -2,15 +2,16 @@
 
   namespace App\Models;
 
+  use App\Traits\HasRolesAndPermissions;
   use Illuminate\Contracts\Auth\MustVerifyEmail;
   use Illuminate\Database\Eloquent\Factories\HasFactory;
   use Illuminate\Foundation\Auth\User as Authenticatable;
   use Illuminate\Notifications\Notifiable;
   use Tymon\JWTAuth\Contracts\JWTSubject;
 
-  class User extends Authenticatable
+  class User extends Authenticatable implements JWTSubject
   {
-    use HasFactory, Notifiable;
+    use HasFactory, Notifiable, HasRolesAndPermissions;
 
     /**
      * The attributes that are mass assignable.
@@ -18,9 +19,20 @@
      * @var array
      */
     protected $fillable = [
+      'id',
       'name',
+      'login',
       'email',
       'password',
+      'img',
+      'facebook',
+      'site',
+      'phone',
+      'viber',
+      'telegram',
+      'whatsapp',
+      'skype',
+      'balance'
     ];
 
     /**
@@ -42,25 +54,29 @@
       'email_verified_at' => 'datetime',
     ];
 
-
-    /**
-     * Get the identifier that will be stored in the subject claim of the JWT.
-     *
-     * @return mixed
-     */
+    public function roles()
+    {
+      return $this->belongsToMany(Role::class, 'users_roles');
+    }
+    // возвращаем ключ
     public function getJWTIdentifier()
     {
       return $this->getKey();
     }
-
-    /**
-     * Return a key value array, containing any custom claims to be added to the JWT.
-     *
-     * @return array
-     */
+    // возвращаем массов с пользовательскими данными
     public function getJWTCustomClaims()
     {
       return [];
+    }
+
+    public function social()
+    {
+      return $this->hasMany(UserSocial::class, 'user_id', 'id');
+    }
+
+    public function hasSocialLinked($service)
+    {
+      return (bool) $this->social->where('service', $service)->count();
     }
 
   }

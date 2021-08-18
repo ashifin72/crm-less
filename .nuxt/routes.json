@@ -3,54 +3,63 @@
     "name": "categories",
     "path": "/categories",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\categories.vue",
-    "chunkName": "pages/categories"
+    "chunkName": "pages/categories",
+    "_name": "_5deaf513"
   },
   {
     "name": "defaul-record",
     "path": "/defaul-record",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\defaul-record.vue",
-    "chunkName": "pages/defaul-record"
+    "chunkName": "pages/defaul-record",
+    "_name": "_08463924"
   },
   {
     "name": "history",
     "path": "/history",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\history.vue",
-    "chunkName": "pages/history"
+    "chunkName": "pages/history",
+    "_name": "_77e8f72d"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "chunkName": "pages/login",
+    "_name": "_2df01bc2"
   },
   {
     "name": "planning",
     "path": "/planning",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\planning.vue",
-    "chunkName": "pages/planning"
+    "chunkName": "pages/planning",
+    "_name": "_f21eccd8"
   },
   {
     "name": "profile",
     "path": "/profile",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\profile.vue",
-    "chunkName": "pages/profile"
+    "chunkName": "pages/profile",
+    "_name": "_6d8509c2"
   },
   {
     "name": "record",
     "path": "/record",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\record.vue",
-    "chunkName": "pages/record"
+    "chunkName": "pages/record",
+    "_name": "_26ac0048"
   },
   {
     "name": "register",
     "path": "/register",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\register.vue",
-    "chunkName": "pages/register"
+    "chunkName": "pages/register",
+    "_name": "_d201644c"
   },
   {
     "name": "index",
     "path": "/",
     "component": "S:\\\\laragon\\\\www\\\\CRM-less\\\\client\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_644878ab"
   }
 ]
